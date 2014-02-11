@@ -1,0 +1,283 @@
+/*------------------------------RESET DEFAULT STYLES--------------------------------*/
+html,body                       { width:100%; height:100%; }
+body                            { padding:0; margin:0; font: 14px "Trebuchet MS"; background:#fff; color:#000; }
+div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,fieldset,label,select,checkbox,input,textarea {
+	padding:0;
+	margin:0;
+	outline:none;
+	list-style:none;
+}
+select, input, textarea        { font-size:14px; vertical-align:middle; }
+textarea                       { vertical-align:top; }
+:focus                         { outline:none; }
+input[type=submit]             { cursor:pointer; }
+img, fieldset                  { border:0; }
+table                          { border-collapse:collapse; border-spacing:0; }
+a:link, a:visited              { font: 14px "Trebuchet MS"; color:#000; text-decoration:underline; }
+a:hover                        { text-decoration:none; }
+/*-------------------------------------DEFAULT CLASSES------------------------------*/
+.float-r           	           { float:right !important; }
+.float-l                       { float:left !important; }
+.no-float                      { float:none !important; }
+.no-border                     { border:0 !important; }
+.no-bg                         { background:none !important; }
+.no-margin                     { margin:0 !important; }
+.no-padding                    { padding:0 !important; }
+.no-display                    { display:none !important; }
+.display                       { display:block !important; }
+.inline                        { display:inline !important; }
+.overflow                      { overflow:hidden !important; }
+.align-r                       { text-align:right !important; }
+.align-l                       { text-align:left !important; }
+.align-c                       { text-align:center !important; }
+.clear                         { clear:both; }
+
+/*--------------------------------------------------------------*/
+
+body {
+	background: url('/templates/Museum/images/backgroundot.gif') repeat;
+}
+
+.wrapper {
+	width: 1001px;
+	margin: 0 auto;
+	background: url('/templates/Museum/images/sidebar-bgr.png') repeat;
+}
+
+.header {
+	background: url('/templates/Museum/images/head-bgr-1.png');
+	padding: 14px 14px 12px 34px;
+}
+
+ul.language {
+	text-align: right;
+}
+
+.language li {
+	display: inline;
+}
+
+.language a {
+	color: #E5D99B;
+	font: bold 15px Arial;
+}
+
+span.logo {
+	float: left;
+}
+
+.header span.name {
+	font-style: "AquilineTwo Regular", Arial, sans-serif;
+	font-size: 34px;
+	text-indent: -100px;
+	margin: 50px 0 0 140px;
+	color: #F1E6A2;
+	display: inline-block;
+}
+
+ul.menu-head {
+	text-align: right;
+	padding: 30px 0 0;
+}
+
+.menu-head li {
+	display: inline;
+	margin: 0 0 0 12px;
+}
+
+.menu-head a {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.sidebar {
+	float: left;
+	width: 251px;
+    height: 1000px;
+}
+
+.sidebar form {
+	text-align: center;
+	margin: 16px 0;
+}
+
+.sidebar input {
+	border-radius: 50px;
+	border: 2px solid #fff;
+	width: 200px;
+	background:  url('/templates/Museum/images/sidebar-bgr.png');
+	padding: 4px 8px;
+}
+
+input.button {
+	margin: 4px auto 0;
+	width: auto;
+	padding: 2px 8px;
+	display: block;
+}
+
+ul.sidebar-menu {
+	margin: 6px 0 54px 6px;
+}
+
+.sidebar-menu li {
+	margin: 0 0 0 4px;
+	padding: 2px 0 2px 18px;
+	background: url('/templates/Museum/images/list-decor.png') left top no-repeat;
+}
+
+.sidebar-menu li a {
+	color: #542A2A;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.sidebar-menu li a:hover {
+	text-decoration: underline;
+	color: #fff;
+}
+
+.active .sidebar-submenu a {
+	color: #602A2A;
+	padding: 2px 0 2px 18px;
+	margin: 0 0 0 -28px;
+}
+
+li.active a {
+	color: #fff;
+}
+
+.sidebar-submenu li {
+	background: none;
+}
+
+.sidebar-submenu li a:hover {
+	background: url('/templates/Museum/images/list-decor.png') left top no-repeat;
+}
+
+.notice h3 {
+	text-align: center;
+	padding: 0 0 0 24px;
+	margin: 0 0 16px;
+	background: url('/templates/Museum/images/pic-pappers.png') 20% center no-repeat;
+	color: #F1E6A2;
+	font-size: 20px;
+}
+
+.notice li {
+	margin: 0 16px 8px 8px;
+	font-size: 12px;
+	text-align: justify;
+	font-weight: normal;
+}
+
+.notice h4 {
+	text-align: center;
+	font-size: 14px;
+	color: #000;
+	padding: 0 0 4px;
+}
+
+li.further {
+	text-align: right;
+	padding: 0 46px 0 0;
+}
+
+.sidebar .further a {
+	color: #000;
+	font-size: 14px;
+	text-decoration: underline;
+	padding: 0 26px 0 0;
+	background: url('/templates/Museum/images/arrow.png') right center no-repeat;
+}
+
+.further a:hover {
+	text-decoration: none;
+}
+
+.content {
+	overflow: hidden;
+	background: url('/templates/Museum/images/main-bgr.png');
+	border-left: 4px solid #672323;
+	/*width: 750px;*/
+}
+
+.content h1 {
+	text-align: center;
+	background: url('/templates/Museum/images/line.png') bottom center no-repeat;
+	padding: 8px 0 10px;
+	font-size: 24px;
+}
+
+.content h2 {
+	text-align: center;
+}
+
+ul.news {
+	margin: 4px 14px 200px 44px;
+}
+
+.news li {
+	margin: 0 0 26px;
+}
+
+.news p {
+	/*display: inline;*/
+	overflow: hidden;
+	/*margin: 0 10px 0 0;*/
+	color: #3D1E1E;
+	text-align: justify;
+	font-size: 12px;
+}
+
+.news img {
+	float: right;
+	margin: 16px 0 0 10px;
+}
+
+.news span.further {	
+	float: right;
+	margin: 12px 50px 0 0;
+}
+
+.news .further a {
+	color: #5F4444;
+	padding: 0 26px 0 0;
+	background: url('/templates/Museum/images/arrow-brown.png') right center no-repeat;
+}
+
+ul.pages {
+	text-align: center;
+	margin: 60px 0 30px;
+}
+
+.pages li {
+	display: inline;
+	color: #5F4444;
+	padding: 0 2px;
+}
+
+.pages li a {
+	color: #5F4444;
+	font-size: 14px;
+	text-decoration: none;
+
+}
+
+.pages li a:hover {
+	text-decoration: underline;
+}
+
+.pages li.active a {
+	text-decoration: underline;
+	font-size: 18px;
+}
+
+.footer {
+	margin: 0 64px 30px 110px;
+}
+
+.footer p {
+	color: #3D1E1E;
+    font-size: 12px;
+}
